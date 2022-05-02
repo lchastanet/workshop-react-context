@@ -1,19 +1,9 @@
 import EditProfileForm from "./EditProfileForm"
 
-export default function Profile({
-  currentUserName,
-  setCurrentUserName,
-  currentUserAvatar,
-  setCurrentUserAvatar,
-}) {
+export default function Profile() {
   return (
     <div>
-      <EditProfileForm
-        currentUserName={currentUserName}
-        setCurrentUserName={setCurrentUserName}
-        currentUserAvatar={currentUserAvatar}
-        setCurrentUserAvatar={setCurrentUserAvatar}
-      />
+      <EditProfileForm />
     </div>
   )
 }
